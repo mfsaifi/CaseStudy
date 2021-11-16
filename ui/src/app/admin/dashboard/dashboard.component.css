@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+
+.head{
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+}

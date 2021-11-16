@@ -1,0 +1,18 @@
+<div class="head">
+    <input name="logout" id="logout" class="btn btn-primary" type="button" value="Logout">
+</div>
+
+
+<div class='navbar'>
+    <input  [routerLink]="['import-data']" name="import" id="import" class="btn btn-primary" type="button" value="Import Data">
+    <input  [routerLink]="['manage-company']" name="m_company" id="m_company" class="btn btn-primary" type="button" value="Manage Company">
+    <input  [routerLink]="['manage-exchange']" name="m_exchange" id="m_exchange" class="btn btn-primary" type="button" value="Manage Exchange">
+    <input   [routerLink]="['update-ipo']" name="update_ipo" id="update_ipo" class="btn btn-primary" type="button" value="Update IPO Details">
+</div>
+
+<div>
+    <router-outlet>
+
+    </router-outlet>
+    
+</div>
